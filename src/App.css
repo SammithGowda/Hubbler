@@ -1,0 +1,168 @@
+.main_div {
+  width: 95%;
+  /* height: 600px; */
+  margin: auto;
+  border: 2px solid black;
+  background-color: #ecebec;
+  margin-top: 20px;
+}
+.nav_div {
+  width: 100%;
+  margin: auto;
+  /* border: 2px solid red; */
+  display: flex;
+}
+.nav_div > div:nth-child(1) {
+  width: 50%;
+  /* border: 2px solid aqua; */
+  display: flex;
+}
+.nav_div > div:nth-child(1) > div {
+  margin: 5px;
+  /* height: 30px; */
+  /* border: 2px solid red; */
+  text-align: center;
+}
+.second_span {
+  font-size: small;
+}
+.greaterthansymbol {
+  height: 20px;
+  margin-top: 15px;
+}
+.nav_div > div:nth-child(2) {
+  width: 30%;
+  flex: 0.5;
+  /* border: 2px solid aqua; */
+  margin-left: auto;
+  text-align: center;
+  padding: 10px;
+}
+.nav_div > div:nth-child(2) > button {
+  background-color: darkgray;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+.second_sub_div {
+  width: 98%;
+  /* border: 2px solid green; */
+  height: 70%;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+}
+.second_sub_div > div:nth-child(1) {
+  /* border: 2px solid yellow; */
+  flex: 1;
+}
+
+.second_sub_div > div:nth-child(2) {
+  /* border: 2px solid yellow; */
+  flex: 4;
+  background-color: #fbf9f9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+}
+
+.rules_first_div {
+  width: 90%;
+  /* border: 2px solid blue; */
+  margin: 10% 0% 0% 3%;
+}
+.rules_second_div {
+  padding-left: 15px;
+}
+.rules_first_div > input {
+  width: 200px;
+  height: 30px;
+  /* border: 2px solid blue; */
+  margin: 10px 0px 0px 15px;
+}
+
+.manual_added_div {
+  /* border: 2px solid blue; */
+  width: 200px;
+  margin: 10px 0px 0px 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.manual_added_div > div {
+  width: 50%;
+  word-wrap: break-word;
+}
+.add_filed_btn {
+  width: 200px;
+  height: 30px;
+  margin: 10px 0px 0px 15px;
+  border: none;
+  background-color: #d4d4d4;
+  color: black;
+  border-radius: 5px;
+}
+.button_div {
+  /* border: 2px solid red; */
+  width: 20%;
+  margin-top: 10px;
+}
+.button_div > input {
+  width: 100%;
+  height: 2em;
+  margin-top: 1ch;
+}
+.if_all_div {
+  /* border: 2px solid red; */
+  width: 50%;
+  margin-top: 40px;
+}
+.if_all_div > select {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+.condtion_div {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+}
+
+.each_condtion_div > select {
+  width: 120px;
+  height: 40px;
+  margin: 0px 5px 0px 0px;
+}
+.each_condtion_div > input {
+  width: 50%;
+  height: 35px;
+  margin-right: 5px;
+}
+.add_condition_btn {
+  height: 40px;
+  width: 15%;
+  margin-top: 10px;
+}
+.last_condition_div {
+  width: 20%;
+  height: 35px;
+  border: 1px solid black;
+  display: flex;
+  margin: 5px;
+}
+.last_condition_div > img,
+span {
+  margin: 8px 5px 0px 5px;
+}
+.last_condition_div > a {
+  text-decoration: none;
+  margin: 8px 5px 0px 15px;
+}
+.down_img {
+  margin-top: 15px;
+}
+.last_btn {
+  height: 40px;
+  width: 15%;
+  margin-top: 10px;
+}
